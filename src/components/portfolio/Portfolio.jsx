@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import PortfolioList from "../portfolioList/PortfolioList";
+import PortfolioCards from '../portfolioCards/PortfolioCards';
 import "./portfolio.scss"
 import {
   selectedPortfolio,
@@ -89,13 +90,9 @@ export default function Portfolio() {
       }
       <div className="container">
         {data.map((d) => (
-          <div className="item">
-            <img
-              src={d.img}
-              alt=""
-            />
-            <h3>{d.title}</h3>
-          </div>
+          <PortfolioCards
+            img={d.img}
+            title={d.title} />
         ))}
 
       </div>
