@@ -92,7 +92,11 @@ export default function Portfolio() {
         {data.map((d) => (
           <PortfolioCards
             img={d.img}
-            title={d.title} />
+            title={d.title}
+            role={d.role}
+            date={d.date}
+            location={d.location}
+            resume={d.resume} />
         ))}
 
       </div>
