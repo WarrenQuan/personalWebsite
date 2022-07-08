@@ -1,0 +1,80 @@
+@import "../../global.scss";
+
+.about{
+    background-color: white;
+    .wrapper{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        @include mobile{
+            padding-left: 0;
+            align-items: center;
+          }
+    h1{
+        font-size: 60px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        text-shadow: -3px 3px #72728633;
+        @include mobile{
+            font-size: 40px;
+          }
+
+          strong{
+            display: inline;
+            color: $mainColor;
+          }
+      }
+
+      h2{
+          font-size: 35px;
+          flex-flow: row;
+          flex-wrap: wrap;
+
+          @include mobile{
+              font-size: 20px;
+            }
+          span{
+              font-size: inherit;
+              color: $mainColor;
+          }
+          strong{
+            font-weight: 800;
+            display: inline;
+
+          }
+          
+        // potential colors for about text, unused rn
+        .mainColor{
+            color: $mainColor;
+        }
+        .princeton{
+            color:#e58d00;
+        }
+        .mainColor{
+            color: $mainColor;
+        }
+        .robotics{
+            color:#b01818;
+        }
+        .finance{
+            color: #e9ba00;
+        }
+        .vis{
+            color:#38ab83;
+        }
+        .tech{
+            color:#83ac40;
+        }
+      }
+
+      h3{
+          font-size: 30px;
+      }
+
+    }
+}

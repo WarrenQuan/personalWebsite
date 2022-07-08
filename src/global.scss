@@ -1,0 +1,9 @@
+$mainColor: #472f9d; /* declaring SASS vars */
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

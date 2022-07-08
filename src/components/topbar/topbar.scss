@@ -1,0 +1,94 @@
+@import "../../global.scss";
+
+.topbar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: $mainColor;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 3; /* specifies stack order, make it so you can see top bar to fix*/
+
+    .wrapper {
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            display: flex;
+            align-items: center;
+            .logo{
+                font-size: 40px;
+                font-weight: 700;
+                text-decoration: none; /* ridding underline */
+                color: inherit;
+                margin-right: 40px;
+                text-shadow: -3px 3px #72728633;
+            }
+
+            .itemContainer{
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+
+                @include mobile{
+                    display: none;
+                }
+
+                .icon{
+                    font-size: 18px;
+                    margin-right: 5px;
+                }
+
+                span{
+                    font-size: 15px; 
+                    font-weight: 600;
+                }
+            }
+        }
+        .right {
+            .hamburger{
+                width: 32px;
+                height:25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer; /* makes cursor point when hover */
+
+
+                span{ /* makes lines of hamburger */ 
+                    width: 100%;
+                    height: 3px;
+                    background-color: $mainColor; 
+                    transform-origin: left; /* for later transformation making idt an "x" */
+                    transition: all 1.5s ease; /* transition time for the hamburg */
+                }
+            }
+        }
+    }
+    
+    &.active{ /* if active */ 
+        background-color: $mainColor;
+        color: white;
+        transition: all 1s ease; /* transition time for the hamburg */
+
+        .hamburger{
+            span{ /* transforming it into an 'x' when clicked */
+                &:first-child{
+                    background-color: white;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:last-child{
+                    background-color: white;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+    }
+
+}
