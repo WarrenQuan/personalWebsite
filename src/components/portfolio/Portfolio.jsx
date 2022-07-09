@@ -88,7 +88,6 @@ export default function Portfolio() {
       {
         // arrow function to map all items with images from data, uses d
       }
-      <div className="container">
         {data.map((d) => (
           // pass into portfolio cards component
           <PortfolioCards
@@ -100,7 +99,7 @@ export default function Portfolio() {
             resume={d.resume} />
         ))}
 
-      </div>
+
     </div>
   )
 }

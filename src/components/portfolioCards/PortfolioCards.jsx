@@ -3,7 +3,7 @@ import "./portfolioCards.scss"
 
 export default function PortfolioCards({ img, title, role, date, location, resume }) {
     return (
-        <div className="container">
+        <div className="portfolioCards">
             <div className="item">
                 <div className="left">
                     <div className="leftContainer">
