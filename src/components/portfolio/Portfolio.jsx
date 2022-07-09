@@ -90,6 +90,7 @@ export default function Portfolio() {
       }
       <div className="container">
         {data.map((d) => (
+          // pass into portfolio cards component
           <PortfolioCards
             img={d.img}
             title={d.title}

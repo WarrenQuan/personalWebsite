@@ -46,7 +46,7 @@
             flex-direction: column;
             justify-content: center;
             overflow: hidden;
-            text-shadow: -3px 3px #72728633;
+            text-shadow: -3px 3px 2px #72728633;
 
             @include mobile{
                 padding-left: 0;
