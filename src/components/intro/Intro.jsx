@@ -26,9 +26,7 @@ export default function Intro() {
           <h2 >i am a&nbsp;<span> <Typewriter options={{strings:['developer', 'designer', 'lifelong learner' ], autoStart:true, delay:75, loop:true, skipAddStyles:false}}/></span>
           </h2> 
           <a href="#about">
-          <div className="itemContainer">
             <KeyboardArrowDown className='icon' color="disabled" style={{ fontSize: 60 }}/>
-          </div>
         </a>
         </div>
       

@@ -21,7 +21,9 @@
         margin-bottom: 20px;
         text-shadow: -3px 3px 2px#72728633;
         @include mobile{
-            font-size: 40px;
+            margin-top: 10px;
+            font-size: 35px;
+            overflow: visible;
           }
 
           strong{
