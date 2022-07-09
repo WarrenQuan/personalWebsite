@@ -15,6 +15,7 @@
         //color:$mainColor;
         text-shadow: -3px 3px 2px #72728633;
         @include mobile{
+            padding-top: 10%;
             font-size: 30px;
           }
     }

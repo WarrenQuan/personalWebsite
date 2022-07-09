@@ -3,7 +3,7 @@ export const selectedPortfolio = [
         id: 1,
         title: "NIH",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+            "assets/selfPortrait.png",
         role: "Software Engineer",
         date: "June 2022 - Present",
         location: "Princeton, NJ",
@@ -258,7 +258,7 @@ export const designPortfolio = [
         id: 2,
         title: "The Daily Princetonian and The Lowell Cartoons",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU", role: "Software Engineer",
+            "assets/theLowell.png", role: "Software Engineer",
         date: "June 2022 - Present",
         location: "Princeton, NJ",
         resume: "blah",

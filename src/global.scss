@@ -1,6 +1,6 @@
 $mainColor: #472f9d; /* declaring SASS vars */
 
-$width: 768px;
+$width: 1050px;
 
 @mixin mobile {
     @media (max-width: #{$width}){

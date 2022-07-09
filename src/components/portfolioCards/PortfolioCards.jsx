@@ -4,19 +4,13 @@ import "./portfolioCards.scss"
 export default function PortfolioCards({ img, title, role, date, location, resume }) {
     return (
         <div className="portfolioCards">
-            <div className="item">
-                <div className="left">
-                    <div className="leftContainer">
-                        <h2>{title}</h2>
-                        <p>{role} | {date} | {location}</p>
-                        <p>{resume}</p>
-                    </div>
-                </div>
-                <div className="right">
-                    <img
-                        src={img}
-                        alt=""
-                    />
+            <div className="item" style={{
+                backgroundImage: `url(${img})`
+            }}>
+                <div className='right'>
+                    <h2>{title}</h2>
+                    <p>{role} | {date} | {location}</p>
+                    <p>{resume}</p>
                 </div>
             </div>
         </div>

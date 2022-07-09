@@ -2,107 +2,49 @@
 
 .portfolioCards {
     width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-        .item {
-            height: 100%;
-            background-color: white;
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            @include mobile {
-                width: 80%;
-                height: 150px;
-                margin: 15px 0;
-            }
-        }
-
-        .left {
-            flex: 4;
-            height: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            .leftContainer {
-                width: 90%;
-                height: 70%;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-
-                p {
-                    font-size: 13px;
-
-                    @include mobile {
-                        display: none;
-                    }
-                }
-
-                span {
-                    font-size: 12px;
-                    font-weight: 600;
-                    text-decoration: underline;
-                    cursor: pointer;
-                }
-            }
-
-            .right {
-                flex: 8;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                overflow: hidden;
-
-                img {
-                    width: 400px;
-                    transform: rotate(-10deg);
-                }
-            }
-    }
-}
-
-/*
-.portfolioCards {
-    width: 90%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 
     @include mobile {
-        width: 100%;
-    }
+        width: 100vw;
+        height: 80vh;
+        margin: 15px 0;
+      }
 
     .item {
         width: 80%;
-        height: 75%;
+        height: 80vh;
         border-radius: 20px;
-        border: 1px solid lightgrey;
         margin: 10px 20px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        color: white;
+        justify-content: right;
+        color: $mainColor;
         position: relative;
-        transition: all .6 ease;
-        cursor: pointer;
 
-
-        @include mobile {
-            width: 130px;
-            height: 100vh;
+        .right{
+            flex: 0.4;
+            word-wrap: break-word;
         }
 
-        h3 {
-            position: absolute;
-            font-size: 20px;
+        @include mobile {
+            display:initial;
+            justify-content: center;
+            margin: 0;
+            height: 80vh;
+            width: 80%;
+        }
+
+        h2 {
+            position: relative;
+            font-size: 35px;
+        }
+        p{
+                position: relative;
+                font-size: 20px;
         }
 
         img {
@@ -114,4 +56,3 @@
 
     }
 }
-*/
