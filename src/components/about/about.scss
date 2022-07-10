@@ -4,7 +4,6 @@
     background-color: white;
     .wrapper{
         width: 90%;
-        height: 100%;
         margin-left: 5%;
         margin-bottom: 5%;
         display: flex;
@@ -24,7 +23,6 @@
         @include mobile{
             margin-top: 10px;
             font-size: 35px;
-            overflow: visible;
           }
 
           strong{

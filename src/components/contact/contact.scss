@@ -61,6 +61,12 @@
         display: inline;
 
       }
+      .icon{
+        @include mobile {
+          font-size: 15px;
+        }
+
+      }
 
     }
 
