@@ -26,7 +26,7 @@
 
       @include mobile {
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 30px;
         overflow: visible;
       }
 
@@ -42,13 +42,13 @@
       font-size: 30px;
       margin-left: 5%;
       margin-bottom: 1%;
-
+      
+      @include mobile {
+        font-size: 15px;
+      }
       a {
         font-weight: 600;
         color: white;
-      }
-      @include mobile {
-        font-size: 15px;
       }
 
       span {

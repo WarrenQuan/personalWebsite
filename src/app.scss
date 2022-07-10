@@ -3,12 +3,11 @@
     
     /* can nest in scss */
     .sections{
-        width:100%;
-        height: calc(100vh - 70px); /* calculate to account for header overflow */
-        background-color: white;
+    
         position: relative;
         top: 70px; /* start after 70 px */
         scroll-behavior: smooth; /* goes to page section smoothly */
+        scroll-snap-type: y mandatory;  /* snapping when scroll */
         scrollbar-width: none; /* firefox rid of scrollbar */
         &::-webkit-scrollbar{ /* other browsers */
             display:none;
@@ -17,6 +16,7 @@
         > *{ /* for all elements inside the sections */
             width: 100vw;
             height: calc(100vh - 70px);
+            scroll-snap-align: start;
         }
         
     }
