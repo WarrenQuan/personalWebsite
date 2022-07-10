@@ -9,10 +9,6 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <div className="left">
                     <a href="#intro" className="logo" id="logo"> warren quan. </a>
                     <div className="itemContainer">
-                        <LocalPhone className='icon'/>
-                        <span> 1 415 299 7865 </span>
-                    </div>
-                    <div className="itemContainer">
                         <Mail className='icon'/>
                         <a href='mailto:wquan@princeton.edu'>wquan@princeton.edu</a>
                     </div>
