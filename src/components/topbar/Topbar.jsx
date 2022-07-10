@@ -22,7 +22,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     </div>
                     <div className="itemContainer">
                         <GitHub className='icon'/>
-                        <a href = 'https://github.com/WarrenQuan'>Github</a>
+                        <a href = 'https://github.com/WarrenQuan'>GitHub</a>
                     </div>
                 </div>
                 <div className="right">

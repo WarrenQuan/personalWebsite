@@ -96,7 +96,8 @@ export default function Portfolio() {
             role={d.role}
             date={d.date}
             location={d.location}
-            resume={d.resume} />
+            resume={d.resume} 
+            link={d.link}/>
         ))}
 
 

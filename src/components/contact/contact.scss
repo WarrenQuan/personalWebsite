@@ -1,80 +1,79 @@
 @import "../../global.scss";
 
-.contact {
-  background-color: white;
-  display: flex;
+.contact{
+    background-color: $mainColor;
+    .wrapper{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
-  @include mobile {
-    flex-direction: column;
-  }
 
-  .left {
-    flex: 1;
-    overflow: hidden;
+        @include mobile{
+            padding-left: 0;
+            align-items: center;
+          }
+    h1{
+        font-size: 60px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        text-shadow: -3px 3px 2px#72728633;
+        @include mobile{
+            margin-top: 10px;
+            font-size: 35px;
+            overflow: visible;
+          }
 
-    img {
-      height: 100%;
-    }
-  }
-  .right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+          strong{
+            display: inline;
+            color: white;
+          }
+      }
 
-    h2 {
-      font-size: 30px;
-    }
+      h2{
+          font-size: 35px;
+          flex-flow: row;
+          flex-wrap: wrap;
 
-    form {
-      width: 70%;
-      height: 70%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
+          @include mobile{
+              font-size: 20px;
+            }
+          span{
+              font-size: inherit;
+              color: white;
+          }
+          strong{
+            font-weight: 800;
+            display: inline;
 
-      input {
-        width: 300px;
-        height: 30px;
-        font-size: 14px;
-
-        @include mobile {
-          width: 200px;
-          height: 20px;
+          }
+          
+        // potential colors for about text, unused rn
+        .mainColor{
+            color: white;
+        }
+        .princeton{
+            color:#e58d00;
+        }
+        .robotics{
+            color:#b01818;
+        }
+        .finance{
+            color: #e9ba00;
+        }
+        .vis{
+            color:#38ab83;
+        }
+        .tech{
+            color:#83ac40;
         }
       }
 
-      textarea {
-        width: 300px;
-        height: 200px;
-        font-size: 14px;
-
-        @include mobile {
-          width: 200px;
-          height: 100px;
-        }
+      h3{
+          font-size: 30px;
       }
 
-      button {
-        width: 150px;
-        height: 30px;
-        color: white;
-        background-color: crimson;
-        border: none;
-        border-radius: 10px;
-        font-weight: 500;
-        cursor: pointer;
-
-        &:focus {
-          outline: none;
-        }
-      }
-
-      span {
-        color: green;
-      }
     }
-  }
 }
