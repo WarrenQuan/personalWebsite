@@ -21,15 +21,21 @@
         padding-left: 0;
         display: inline-block;
         font-size: 20px;
+        @include mobile {
+            font-size: 15px;
+          }
     }
-    p{
-        display:inline;
-        
+
+    p {
+        display: inline;
+
     }
-    h6{
+
+    h6 {
         font-weight: 300;
-        display:inline;
+        display: inline;
         font-size: 20px;
+
     }
 
     .item {
@@ -51,7 +57,8 @@
             justify-content: center;
             width: 80%;
         }
-/*
+
+        /*
         .left {
             flex: 0.6;
             /* splits in half using flex 
@@ -116,6 +123,10 @@
             line-height: 1.25;
             overflow: visible;
             margin-bottom: 10px;
+
+            @include mobile {
+                font-size: 35px;
+            }
         }
 
         h3 {
@@ -123,6 +134,10 @@
             font-size: 22px;
             font-weight: 600;
             margin-bottom: 7px;
+
+            @include mobile {
+                font-size: 20px;
+            }
         }
 
         img {
@@ -131,14 +146,16 @@
             object-fit: cover;
             z-index: 1;
         }
-        a{
+
+        a {
             font-size: inherit;
             color: inherit;
             font-weight: 600;
             font-style: italic;
 
         }
-        .icon{
+
+        .icon {
             font-size: 20px;
         }
 
