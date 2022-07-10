@@ -13,7 +13,7 @@ import {
 } from "../../data";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured")
+  const [selected, setSelected] = useState("selected")
   const [data, setData] = useState([])
   const list = [
     {
@@ -45,7 +45,7 @@ export default function Portfolio() {
   // useEffect to setData
   useEffect(() => {
     switch (selected) {
-      case "featured":
+      case "selected":
         setData(selectedPortfolio);
         break;
       case "swe":
@@ -70,7 +70,7 @@ export default function Portfolio() {
 
   return (
     <div className='portfolio' id="portfolio">
-      <h1 className="active">Work and Portfolio</h1>
+      <h1>Work and Portfolio</h1>
       <ul className='section'>
         {
           // arrow function with passing prop to PortfolioList, uses setSelected state
