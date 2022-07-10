@@ -4,13 +4,33 @@ import "./portfolioCards.scss"
 export default function PortfolioCards({ img, title, role, date, location, resume }) {
     return (
         <div className="portfolioCards">
-            <div className="item" style={{
-                backgroundImage: `url(${img})`
-            }}>
+            <div className="item" >
+                <div className='left'>
+                    <img
+                        src={img}
+                        alt=""
+                    />
+                </div>
                 <div className='right'>
-                    <h2>{title}</h2>
-                    <p>{role} | {date} | {location}</p>
-                    <p>{resume}</p>
+                    <div>
+                        <h1>{title}</h1>
+                        <h3>{role} | {date} | {location}</h3>
+
+                        <ul>
+                            {
+                                // arrow function to list off resume ite
+                            }
+                            {resume.map((item) => {
+                                if(typeof item === "string"){
+                                    return <li>- {item}</li>
+                                }
+                                else{
+                                    return <li>{item}</li>
+                                }
+})}
+                        </ul>
+     
+                    </div>
                 </div>
             </div>
         </div>

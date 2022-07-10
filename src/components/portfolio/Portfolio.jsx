@@ -71,7 +71,7 @@ export default function Portfolio() {
   return (
     <div className='portfolio' id="portfolio">
       <h1 className="active">Work and Portfolio</h1>
-      <ul>
+      <ul className='section'>
         {
           // arrow function with passing prop to PortfolioList, uses setSelected state
           // menus for stuff like Selected Works or SWE
