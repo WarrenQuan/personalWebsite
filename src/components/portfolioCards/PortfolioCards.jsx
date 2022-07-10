@@ -1,6 +1,6 @@
 import React from 'react'
 import "./portfolioCards.scss"
-import {InfoOutlined, Link} from '@mui/icons-material';
+// import {InfoOutlined, Link} from '@mui/icons-material';
 
 export default function PortfolioCards({ img, title, role, date, location, resume, link }) {
     return (
