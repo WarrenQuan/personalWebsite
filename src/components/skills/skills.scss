@@ -1,14 +1,15 @@
 @import "../../global.scss";
 
-.contact {
+.skills {
   background-color: $mainColor;
   color: white;
 
   .wrapper {
     width: 80vw;
-    height: 80vh;
+    height: 100vh;
     margin-left: 5%;
     display: flex;
+    padding-top: 3vh;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
@@ -23,33 +24,36 @@
     }
 
     h1 {
-      font-size: 60px;
+      font-size: 50px;
       margin-top: -10px;
       margin-bottom: 20px;
       text-shadow: -3px 3px 2px#72728633;
 
       @include mobile {
         margin-top: 10px;
-        font-size: 30px;
+        font-size: 35px;
         
       }
 
       strong {
         display: inline;
-        
         color: white;
+      }
+      span {
+        font-size: inherit;
+        color: rgba(255, 255, 255, 0.5);
       }
     }
 
     h2 {
       flex-flow: row;
       flex-wrap: wrap;
-      font-size: 30px;
+      font-size: 25px;
       margin-left: 5%;
       margin-bottom: 1%;
       
       @include mobile {
-        font-size: 15px;
+        font-size: 18px;
       }
       a {
         font-weight: 600;
@@ -58,7 +62,7 @@
 
       span {
         font-size: inherit;
-        color: white;
+        color: rgba(255, 255, 255, 0.5);
       }
 
       strong {
@@ -79,26 +83,5 @@
 
   }
 
-  .bottom {
-    display: flex;
-    height: 5vh;
-    justify-content: center;
-    flex: 0.5;
-    text-align: center;
-    align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 5vh;
-    font-size: 14px;
-    /* splits in half using flex */
 
-    @include mobile {
-      padding-left: 0;
-      align-items: center;
-    }
-  }
-
-  .Typewriter {
-    display: inline;
-  }
 }

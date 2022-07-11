@@ -224,7 +224,7 @@ export const uiPortfolio = [
         date: "June 2021 - Present",
         location: "Princeton, NJ",
         link: <a href="https://docs.google.com/presentation/d/1J3Gf1-Qx4QIVGVs9FTLftGuC7C3LsYAy0hLQwAwTswo/edit?usp=sharing"><Folder className='icon' />Portfolio</a>,
-        resume: [<p>Coordinated outreach and interviewed <b>30+ individuals</b>, including immigrants, professors, and bilingual educators to synthesize the root problems of social isolation and lack of recognition of contributions among immigrants</p>,
+        resume: [<p>Coordinated outreach and interviewed <b>30+ individuals</b>, including immigrants, professors, and bilingual educators to synthesize the root problems of social isolation and lack of recognition of contributions among immigrants through human-centric design thinking</p>,
             "Collaborated with three team members to conceptualize sustainable solutions led by immigrants themselves"],
     },
     {
