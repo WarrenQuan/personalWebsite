@@ -23,7 +23,7 @@ export default function Intro() {
         <div className="wrapper">
           <h2>hello world! my name is </h2>
           <h1> warren quan</h1>
-          <h2 >i am a&nbsp;<span> <Typewriter options={{strings:['developer', 'designer', 'lifelong learner' ], autoStart:true, delay:75, loop:true, skipAddStyles:false}}/></span>
+          <h2 >i am a&nbsp;<span> <Typewriter options={{strings:['developer', 'artist', 'UI/UX designer', 'lifelong learner' ], autoStart:true, delay:75, loop:true, skipAddStyles:false}}/></span>
           </h2> 
           <a href="#about">
             <KeyboardArrowDown className='icon' color="disabled" style={{ fontSize: 60 }}/>

@@ -11,7 +11,7 @@ export default function PortfolioCards({ img, title, role, date, location, resum
                     {
                         // don't show '|' if not needed
                     }
-                    <h3>{role} {role ? <h6> || </h6> : ""} {date} {(role || date) && location ? <h6> || </h6> : ""} {location} {(role || date || location) && link ? <h6> || </h6>  : ""}{link}</h3>
+                    <h3 >{role} {role ? <h6> || </h6> : ""} {date} {(role || date) && location ? <h6> || </h6> : ""} {location} {((role || date) && location) && link ? <h6> || </h6>  : ""}{link}</h3>
                 <ul>
                     {
                         // arrow function to list off resume ite
