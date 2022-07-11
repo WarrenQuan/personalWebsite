@@ -1,6 +1,6 @@
 @import "../../global.scss";
 
-.portfolio{
+.portfolio {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -8,33 +8,38 @@
     align-items: center;
     padding-top: 5%;
     padding-bottom: 3%;
-    
-    @include mobile{
-        padding-top: 5%;
+
+    @include mobile {
+                // offsets the anchor
+        padding-top: calc(5% + 25px);
+        margin-top: -25px;
+
     }
 
-    h1{
+    h1 {
         font-size: 50px;
         //color:$mainColor;
         text-shadow: -3px 3px 2px #72728633;
-        @include mobile{
+
+        @include mobile {
             padding-top: 10%;
             font-size: 30px;
-          }
+        }
     }
 
-    .section{
-        margin:10px;
-        margin-bottom:2%;
+    .section {
+        margin: 10px;
+        margin-bottom: 2%;
         padding: 0;
-        list-style:none;
-        display:flex;
-        @include mobile{
+        list-style: none;
+        display: flex;
+
+        @include mobile {
             margin: 10px 0;
             flex-wrap: wrap;
             justify-content: center;
-          }
+        }
     }
-  
+
 
 }

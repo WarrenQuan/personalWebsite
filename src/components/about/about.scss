@@ -1,8 +1,10 @@
 @import "../../global.scss";
 
-.about{
+.about {
     background-color: white;
-    .wrapper{
+    overflow-x: initial;
+
+    .wrapper {
         width: 90%;
         margin-left: 5%;
         margin-bottom: 5%;
@@ -11,68 +13,82 @@
         justify-content: center;
 
 
-        @include mobile{
+        @include mobile {
+            // offsets the anchor
+            padding-top: 50px;
+            margin-top: -50px;
+            
+            overflow-x: initial;
             padding-left: 0;
             align-items: center;
-          }
-    h1{
-        font-size: 50px;
-        margin-top: 11%;
-        margin-bottom: 20px;
-        text-shadow: -3px 3px 2px#72728633;
-        @include mobile{
-            margin-top: 15%;
-            font-size: 35px;
-          }
+        }
 
-          strong{
-            display: inline;
-            color: $mainColor;
-          }
-      }
+        h1 {
+            font-size: 50px;
+            margin-top: 11%;
+            margin-bottom: 20px;
+            text-shadow: -3px 3px 2px#72728633;
 
-      h2{
-          font-size: 30px;
-          flex-flow: row;
-          flex-wrap: wrap;
-
-          @include mobile{
-              font-size: 20px;
+            @include mobile {
+                margin-top: 15%;
+                font-size: 35px;
             }
-          span{
-              font-size: inherit;
-              color: $mainColor;
-          }
-          strong{
-            font-weight: 800;
-            display: inline;
 
-          }
-          
-        // potential colors for about text, unused rn
-        .mainColor{
-            color: $mainColor;
+            strong {
+                display: inline;
+                color: $mainColor;
+            }
         }
-        .princeton{
-            color:#e58d00;
-        }
-        .robotics{
-            color:#b01818;
-        }
-        .finance{
-            color: #e9ba00;
-        }
-        .vis{
-            color:#38ab83;
-        }
-        .tech{
-            color:#83ac40;
-        }
-      }
 
-      h3{
-          font-size: 30px;
-      }
+        h2 {
+            font-size: 30px;
+            flex-flow: row;
+            flex-wrap: wrap;
+
+            @include mobile {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: inherit;
+                color: $mainColor;
+            }
+
+            strong {
+                font-weight: 800;
+                display: inline;
+
+            }
+
+            // potential colors for about text, unused rn
+            .mainColor {
+                color: $mainColor;
+            }
+
+            .princeton {
+                color: #e58d00;
+            }
+
+            .robotics {
+                color: #b01818;
+            }
+
+            .finance {
+                color: #e9ba00;
+            }
+
+            .vis {
+                color: #38ab83;
+            }
+
+            .tech {
+                color: #83ac40;
+            }
+        }
+
+        h3 {
+            font-size: 30px;
+        }
 
     }
 }

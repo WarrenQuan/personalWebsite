@@ -1,14 +1,23 @@
 @import "../../global.scss";
 
 .intro {
+
+    
+    overflow-x: hidden;
+    height: 100vh;
     background-color: white;
     display: flex;
-    padding-top: 4%;
+
+    // offsets the anchor
+    padding-top: 100px;
+    margin-top: calc(-2% - 100px);
 
 
     @include mobile {
+        overflow-x: hidden;
         flex-direction: column;
         align-items: center;
+        overflow-x: hidden;
     }
 
     .left {
@@ -17,12 +26,12 @@
         width: 100%;
         height: 100%;
         flex-wrap: wrap;
-        overflow: hidden;
+        overflow:hidden;
         
 
         @include mobile {
             flex: 0.8;
-            overflow: visible;
+            overflow: hidden;
             width: 80vh;
             height: 60vh;
             align-items: center;
@@ -37,6 +46,10 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: right;
+            img{
+                width: 100%;
+                height: auto;
+            }
 
 
             @include mobile {
@@ -58,7 +71,6 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            overflow: visible;
             text-shadow: -3px 3px 2px #72728633;
 
 
@@ -75,7 +87,6 @@
                 margin-bottom: 20px;
 
                 @include mobile {
-                    overflow: visible;
                     margin-bottom: 0px;
                     font-size: 40px;
                 }
