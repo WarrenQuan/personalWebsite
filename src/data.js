@@ -69,7 +69,7 @@ export const selectedPortfolio = [
         title: "Classifying Handwritten Digits with Machine Learning 🤖",
         img:
             "", role: "",
-        date: "",
+        date: "April 2022",
         location: "",
         link: "",
         resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>]
@@ -78,7 +78,7 @@ export const selectedPortfolio = [
         title: "Buffer Overflow Attacks with Assembly 💻",
         img:
             "", role: "",
-        date: "",
+        date: "December 2020",
         location: "",
         link: "",
         resume: [<p>Constructed buffer overflow attacks with <b>C and ARM assembly</b> through manipulating <b>ARMv8 stack frames structures</b>, debugging with <b>GDB</b> and checking coding vulnerabilities with <b>splint and critTer</b></p>]
@@ -175,13 +175,13 @@ export const projectsPortfolio = [
     },
     {
         id: 4,
-        title: "Seam Carving 🖼️",
+        title: "Classifying Handwritten Digits with Machine Learning 🤖",
         img:
-            "", role: "",
-        date: "April 2021",
-        location: "Data Structures and Algorithms",
+            "", role: "April 2022",
+        date: "",
+        location: "",
         link: "",
-        resume: [<p>Designed content-aware image resizing seam carver tool algorithm, implementing dual-gradient energy function to identify least essential pixels and <b>Djikstra's shortest path algorithm</b> in <b>Java</b> to find horizontal and vertical seams to remove</p>],
+        resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>],
     },
     {
         id: 5,
@@ -189,7 +189,7 @@ export const projectsPortfolio = [
         img:
             "", role: "",
         date: "May 2021",
-        location: "Data Structures and Algorithms",
+        location: "",
         link: "",
         resume: [<p>Simulated word net semantic lexicon using <b>Java object-oriented programming, binary search trees, and digraphs</b>, showing relationships and grouping words based on dictionary definition with a <b>rooted directed acyclic graph</b></p>],
     },
@@ -197,7 +197,7 @@ export const projectsPortfolio = [
         id: 6,
         title: "Buffer Overflow Attacks with Assembly 💻",
         img:
-            "", role: "",
+            "", role: "December 2020",
         date: "",
         location: "",
         link: "",
@@ -205,13 +205,13 @@ export const projectsPortfolio = [
     },
     {
         id: 7,
-        title: "Classifying Handwritten Digits with Machine Learning 🤖",
+        title: "Seam Carving 🖼️",
         img:
             "", role: "",
-        date: "",
+        date: "April 2021",
         location: "",
         link: "",
-        resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>],
+        resume: [<p>Designed content-aware image resizing seam carver tool algorithm, implementing dual-gradient energy function to identify least essential pixels and <b>Djikstra's shortest path algorithm</b> in <b>Java</b> to find horizontal and vertical seams to remove</p>],
     },
 ];
 
