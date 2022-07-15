@@ -51,7 +51,7 @@ export const selectedPortfolio = [
             "", role: "",
         date: "August 2021 - January 2022",
         location: "",
-        link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a> <h6> || </h6> <a href="https://tigereventmatch.herokuapp.com/discover1"><Link className='icon' />Website (Princeton login required)</a></p>,
+        link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a> <h6> || </h6> <a href="https://tigereventmatch.herokuapp.com/discover"><Link className='icon' />Website (Princeton login required)</a></p>,
         resume: [<p>Collaborating with team of four to develop event matching site with card swiping and flipping interface with Google Calendar integration for Princeton students using <b>React, TypeScript, Flask, and Evergreen UI Library</b></p>],
     },
     {
@@ -150,7 +150,7 @@ export const projectsPortfolio = [
             "", role: "",
         date: "August 2021 - January 2022",
         location: "",
-        link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a> <h6> || </h6> <a href="https://tigereventmatch.herokuapp.com/discover1"><Link className='icon' />Website (Princeton login required)</a></p>,
+        link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a> <h6> || </h6> <a href="https://tigereventmatch.herokuapp.com/discover"><Link className='icon' />Website (Princeton login required)</a></p>,
         resume: [<p>Collaborating with team of four to develop event matching site with card swiping and flipping interface with Google Calendar integration for Princeton students using <b>React, TypeScript, Flask, and Evergreen UI Library</b></p>],
     },
     {
@@ -181,7 +181,7 @@ export const projectsPortfolio = [
         date: "",
         location: "",
         link: "",
-        resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>],
+        resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>]
     },
     {
         id: 5,
@@ -197,8 +197,8 @@ export const projectsPortfolio = [
         id: 6,
         title: "Buffer Overflow Attacks with Assembly 💻",
         img:
-            "", role: "December 2020",
-        date: "",
+            "", role: "",
+        date: "December 2020",
         location: "",
         link: "",
         resume: [<p>Constructed buffer overflow attacks with <b>C and ARM assembly</b> through manipulating <b>ARMv8 stack frames structures</b>, debugging with <b>GDB</b> and checking coding vulnerabilities with <b>splint and critTer</b></p>],
