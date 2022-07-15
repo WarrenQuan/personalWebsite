@@ -177,11 +177,11 @@ export const projectsPortfolio = [
         id: 4,
         title: "Classifying Handwritten Digits with Machine Learning 🤖",
         img:
-            "", role: "April 2022",
-        date: "",
-        location: "",
-        link: "",
-        resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>]
+        "", role: "",
+    date: "April 2022",
+    location: "",
+    link: "",
+    resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>]
     },
     {
         id: 5,
