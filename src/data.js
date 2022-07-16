@@ -24,7 +24,7 @@ export const selectedPortfolio = [
         date: "  September 2021 - Present",
         location: "Princeton, NJ",
         link: <a href="https://hoagie.io/"><Link className='icon' />hoagie.io</a>,
-        resume: [<p>Improved HoagieMail application, new application sending all Princeton residential colleges mailing lists, by developing home page using <b>React</b>for <b>1720+ users</b> sending <b>700+ monthly emails</b></p>]
+        resume: [<p>Improved HoagieMail application, new application sending all Princeton residential colleges mailing lists, by developing home page using <b>React</b> for <b>1720+ users</b> sending <b>700+ monthly emails</b></p>]
     },
     {
         id: 3,
