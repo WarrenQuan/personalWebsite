@@ -10,7 +10,7 @@ export const selectedPortfolio = [
         location: "Washington, D.C.",
         link: "",
         resume: [<p>One of the <b>159/1600 fellows</b>  selected for Coding it Forward's Civic Digital Fellowship to work as a software engineer for the National Institutes of Health</p>,
-        <p>Integrating natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing grant prediction and accuracy with webpage developed using <b>StreamLit</b> framework in <b>Python</b> and styled with <b>CSS</b></p>,
+        <p>Integrated natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing prediction accuracy and results with webpage developed using StreamLit framework in <b>Python</b> and <b>SQLite3</b> for user authentication</p>,
         <p>Embedded interactive heat map chart with <b>Plotly Python library</b> to display confidence level of predicted grants</p>,
         <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,  
             ]
@@ -24,7 +24,7 @@ export const selectedPortfolio = [
         date: "  September 2021 - Present",
         location: "Princeton, NJ",
         link: <a href="https://hoagie.io/"><Link className='icon' />hoagie.io</a>,
-        resume: [<p>Improved HoagieMail application, new application sending all Princeton residential colleges mailing lists, by developing home page using React for <b>1720+ users</b> sending <b>700+ monthly emails</b></p>]
+        resume: [<p>Improved HoagieMail application, new application sending all Princeton residential colleges mailing lists, by developing home page using <b>React</b>for <b>1720+ users</b> sending <b>700+ monthly emails</b></p>]
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ export const selectedPortfolio = [
         location: "Princeton, NJ",
         link: <a href="https://dailyprincetonian.com"><Link className='icon' />dailyprincetonian.com</a>,
         resume: [<p>Programmed in <b>Twig</b> to update Princeton’s newspaper’s main website for <b>8000+ concurrent readers</b></p>,
-        <p>Designed <a href="https://subscribe.dailyprincetonian.com/"><Link className='icon' /> email subscription page</a> with <b>Figma</b>  then developed with <b>React, CSS Stylesheet, and MailChimp API</b> to enhance reader engagement and provide curated top stories of Ivy League schools</p>],
+        <p>Designed <a href="https://subscribe.dailyprincetonian.com/"><Link className='icon' /> email subscription page</a> with <b>Figma</b>  then developed with <b>React, CSS grid layouts, and integrated with MailChimp API</b> to enhance reader engagement and provide curated top stories of Ivy League schools</p>],
     },
     {
         id: 4,
@@ -55,7 +55,9 @@ export const selectedPortfolio = [
         date: "August 2021 - January 2022",
         location: "",
         link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a> <h6> || </h6> <a href="https://tigereventmatch.herokuapp.com/discover"><Link className='icon' />Website (Princeton login required)</a></p>,
-        resume: [<p>Collaborating with team of four to develop event matching site with card swiping and flipping interface with Google Calendar integration for Princeton students using <b>React, TypeScript, Flask, and Evergreen UI Library</b></p>],
+        resume: [<p>Collaborating with team of four to develop event matching site to address lack of centralized platform to inform
+            students of campus events, programming card swiping, flipping functionality interface, Google Calendar
+            integration for Princeton students with <b>front-end of React and TypeScript and Python Flask for back-end server</b></p>, "Documenting design and creation process, testing features, database schema, and internal structure of application"],
     },
     {
         id: 6,
@@ -109,7 +111,9 @@ export const swePortfolio = [
         location: "Washington, D.C.",
         link: "",
         resume: [<p>One of the <b>159/1600 fellows</b>  selected for Coding it Forward's Civic Digital Fellowship to work as a software engineer for the National Institutes of Health</p>,
-            "Completing automated grant encoding machine learning algorithm to classify Office of Aids research grants"]
+        <p>Integrated natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing prediction accuracy and results with webpage developed using StreamLit framework in <b>Python</b> and <b>SQLite3</b> for user authentication</p>,
+        <p>Embedded interactive heat map chart with <b>Plotly Python library</b> to display confidence level of predicted grants</p>,
+        <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,]
     },
     {
         id: 2,
@@ -120,7 +124,7 @@ export const swePortfolio = [
         date: "  September 2021 - Present",
         location: "Princeton, NJ",
         link: <a href="https://hoagie.io/"><Link className='icon' />hoagie.io</a>,
-        resume: [<p>Improved HoagieMail application, new application sending all Princeton residential colleges mailing lists, by developing home page using React for <b>1720+ users</b> sending <b>700+ monthly emails</b></p>]
+        resume: [<p>Improved HoagieMail application, new application sending all Princeton residential colleges mailing lists, by developing home page using <b>React</b> for <b>1720+ users</b> sending <b>700+ monthly emails</b></p>]
     },
     {
         id: 3,
@@ -131,7 +135,7 @@ export const swePortfolio = [
         location: "Princeton, NJ",
         link: <a href="https://dailyprincetonian.com"><Link className='icon' />dailyprincetonian.com</a>,
         resume: [<p>Programmed in <b>Twig</b> to update Princeton’s newspaper’s main website for <b>8000+ concurrent readers</b></p>,
-        <p>Designed <a href="https://subscribe.dailyprincetonian.com/"><Link className='icon' /> email subscription page</a> with <b>Figma</b>  then developed with <b>React, CSS Stylesheet, and MailChimp API</b> to enhance reader engagement and provide curated top stories of Ivy League schools</p>],
+        <p>Designed <a href="https://subscribe.dailyprincetonian.com/"><Link className='icon' /> email subscription page</a> with <b>Figma</b>  then developed with <b>React, CSS grid layouts, and integrated with MailChimp API</b> to enhance reader engagement and provide curated top stories of Ivy League schools</p>],
     },
     {
         id: 4,
@@ -174,7 +178,9 @@ export const projectsPortfolio = [
         date: "November 2021",
         location: "",
         link: "",
-        resume: [<p>Created desktop application for listing Princeton course offerings with <b>Python and PyQt5 GUI</b>, gathered course info with <b>SQL</b> from database, and optimized server efficiency with <b>multiple processes and threads</b></p>],
+        resume: [<p>Created desktop application for listing Princeton course offerings with <b>Python and PyQt5 GUI</b>, gathered course info with <b>SQL</b> from database, and optimized server efficiency with <b>multiple processes and threads</b></p>,
+            <p>Programmed online web/mobile page version through <b>HTML, Javascript, jQuery for AJAX techniques</b> to process user inputted course information, and <b>Bootstrap</b> for styling and responsive layout design
+            </p>],
     },
     {
         id: 4,
