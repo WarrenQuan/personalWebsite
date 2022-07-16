@@ -10,7 +10,10 @@ export const selectedPortfolio = [
         location: "Washington, D.C.",
         link: "",
         resume: [<p>One of the <b>159/1600 fellows</b>  selected for Coding it Forward's Civic Digital Fellowship to work as a software engineer for the National Institutes of Health</p>,
-            "Completing automated grant encoding machine learning algorithm to classify Office of Aids research grants"]
+        <p>Integrating natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing grant prediction and accuracy with webpage developed using <b>StreamLit</b> framework in <b>Python</b> and styled with <b>CSS</b></p>,
+        <p>Embedded interactive heat map chart with <b>Plotly Python library</b> to display confidence level of predicted grants</p>,
+        <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,  
+            ]
     },
     {
         id: 2,
