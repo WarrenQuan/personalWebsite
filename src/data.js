@@ -252,7 +252,7 @@ export const uiPortfolio = [
        date: "December 2021 - February 2022",
        location: "Princeton, NJ",
        link: <p><a href="https://www.figma.com/file/h9ipumvv2bo9pqVaFcJx4E/Feel-Good-Buddy-Design?node-id=36%3A2"><Brush className='icon' />Figma</a></p>,
-       resume: ["Decided color pallettes and gradients, and designed and implemented graphics and layout of FeelGoodBuddy greeting card website after performing and presenting user researcha on comparable competitor's websites and products"],
+       resume: ["Decided color palettes and gradients, and designed and implemented graphics and layout of FeelGoodBuddy greeting card website after performing and presenting user research on comparable competitor's websites and products"],
    },
     {
         id: 4,
