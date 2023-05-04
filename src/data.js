@@ -2,6 +2,18 @@ import { Link, GitHub, Brush, Folder, FileOpen } from '@mui/icons-material';
 export const selectedPortfolio = [
     {
         id: 1,
+        title: "Amazon 🍌",
+        img:
+            "assets/NIH.png",
+        role: "Software Engineer Intern",
+        date: "June 2023 - Present",
+        location: "Seattle, WA",
+        link: "",
+        resume: [<p>Amazon Grocery Software Engineer</p>,
+            ]
+    },
+    {
+        id: 2,
         title: "National Institutes of Health 🫀",
         img:
             "assets/NIH.png",
@@ -16,7 +28,7 @@ export const selectedPortfolio = [
             ]
     },
     {
-        id: 2,
+        id: 3,
         title: "Hoagie 🥪",
         img:
             "",
@@ -27,7 +39,7 @@ export const selectedPortfolio = [
         resume: [<p>Improved HoagieMail application, new application sending all Princeton residential colleges mailing lists, by developing home page using <b>React</b> for <b>1720+ users</b> sending <b>700+ monthly emails</b></p>]
     },
     {
-        id: 3,
+        id: 4,
         title: "The Daily Princetonian 🐯",
         img:
             "", role: "Software Developer",
@@ -38,7 +50,7 @@ export const selectedPortfolio = [
         <p>Designed <a href="https://subscribe.dailyprincetonian.com/"><Link className='icon' /> email subscription page</a> with <b>Figma</b>  then developed with <b>React, CSS grid layouts, and integrated with MailChimp API</b> to enhance reader engagement and provide curated top stories of Ivy League schools</p>],
     },
     {
-        id: 4,
+        id: 5,
         title: "GBH Foundation 🦠",
         img:
             "", role: "Software Engineer Intern",
@@ -48,7 +60,7 @@ export const selectedPortfolio = [
         resume: [<p>Partnered with four developers and interns to program an interactive game teaching about viruses and the effectiveness of vaccine into an <b>HTML/Canvas interactive with Typescript, Adobe Animate, PixiAnimate</b></p>],
     },
     {
-        id: 5,
+        id: 6,
         title: "EventMatch 📅",
         img:
             "", role: "",
@@ -60,7 +72,7 @@ export const selectedPortfolio = [
             integration for Princeton students with <b>front-end of React and TypeScript and Python Flask for back-end server</b></p>, "Documenting design and creation process, testing features, database schema, and internal structure of application"],
     },
     {
-        id: 6,
+        id: 7,
         title: "Seam Carving 🖼️",
         img:
             "", role: "",
@@ -70,7 +82,7 @@ export const selectedPortfolio = [
         resume: [<p>Designed content-aware image resizing seam carver tool algorithm, implementing dual-gradient energy function to identify least essential pixels and <b>Djikstra's shortest path algorithm</b> in <b>Java</b> to find horizontal and vertical seams to remove</p>],
     },
     {
-        id: 7,
+        id: 8,
         title: "Classifying Handwritten Digits with Machine Learning 🤖",
         img:
             "", role: "",
@@ -79,7 +91,7 @@ export const selectedPortfolio = [
         link: "",
         resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>]
     }, {
-        id: 8,
+        id: 9,
         title: "Buffer Overflow Attacks with Assembly 💻",
         img:
             "", role: "",
@@ -89,7 +101,7 @@ export const selectedPortfolio = [
         resume: [<p>Constructed buffer overflow attacks with <b>C and ARM assembly</b> through manipulating <b>ARMv8 stack frames structures</b>, debugging with <b>GDB</b> and checking coding vulnerabilities with <b>splint and critTer</b></p>]
     },
     {
-        id: 9,
+        id: 10,
         title: "Art Portfolio 🎨",
         img:
             "", role: "",
