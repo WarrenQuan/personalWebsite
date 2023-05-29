@@ -6,12 +6,13 @@ export const selectedPortfolio = [
         img:
             "assets/NIH.png",
         role: "Software Engineer Intern",
-        date: "June 2023 - Present",
+        date: "May 2023 - Present",
         location: "Seattle, WA",
         link: "",
         resume: [<p>Amazon Grocery Software Engineer</p>,
             ]
     },
+    
     {
         id: 2,
         title: "National Institutes of Health 🫀",
@@ -27,6 +28,27 @@ export const selectedPortfolio = [
         <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,  
             ]
     },
+      {
+        id: 1,
+        title: "AI Image Generation and Chatbot of Myself 🤖",
+        img:
+            "", role: "",
+        date: "February 2023 - May 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/1apKPGjP6w0qJqan8S0YdbtSOSU8kbxUf/view?usp=sharing"><Link className='icon' />Overview</a> </p>,
+        resume: [<p>Implemented transformers model and fine-tuned <b>Microsoft’s DialoGPT model</b> to train chatbot on personal iMessage conversations and coded unconditional art generation with <b>Hugging Face’s Diffusers library</b> in <b>Python</b> on personal photos, cultivating results into paintings and interactive pieces for solo art exhibition next year</p>],
+    },
+    {
+        id: 1,
+        title: "Prediction of Chronic Diseases Across United States 🧑‍⚕️",
+        img:
+            "", role: "",
+        date: "January 2023 - May 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/1wuKBUeIP7ih0KBrVBFmQpPdhWanwQsJY/view?usp=sharing"><Link className='icon' />Research Paper PDF</a> </p>,
+        resume: [<p>IAnalyzed correlations between chronic illnesses with diet and exercise, processed and visualized data through <b>Python panda</b> DataFrame and <b>seaborn</b>  heatmaps, composed research paper under Professor O. Troyanskaya</p>,<p>Compiled linear, random forest, and SGD regression models with <b>scikit-learn</b> library, training based on nutritional habits and outputting the prevalence estimate of chronic illnesses with average R2 accuracy of 0.81</p>],
+    },
+    
     {
         id: 3,
         title: "Hoagie 🥪",
@@ -66,10 +88,20 @@ export const selectedPortfolio = [
             "", role: "",
         date: "August 2021 - January 2022",
         location: "",
-        link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a> <h6> || </h6> <a href="https://tigereventmatch.herokuapp.com/discover"><Link className='icon' />Website (Princeton login required)</a></p>,
+        link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a></p>,
         resume: [<p>Collaborating with team of four to develop event matching site to address lack of centralized platform to inform
             students of campus events, programming card swiping, flipping functionality interface, Google Calendar
             integration for Princeton students with <b>front-end of React and TypeScript and Python Flask for back-end server</b></p>, "Documenting design and creation process, testing features, database schema, and internal structure of application"],
+    },
+    {
+        id: 1,
+        title: "3D Modeling and Mesh Editor Program 🫖",
+        img:
+            "", role: "",
+        date: "February 2023 - May 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/1bij_wOXLFh0fNY_LFaX9QQ9FEASQ10IG/view?usp=sharing"><Link className='icon' />Overview</a> </p>,
+        resume: [<p>Executed vertices and faces mesh manipulation with <b>Javascript</b> and <b>ThreeJS</b>, including translation, scaling, euler rotation (twisting), random noise to vertices, smoothing, extrusion, and subdivision functionalities to models</p>],
     },
     {
         id: 7,
@@ -80,16 +112,6 @@ export const selectedPortfolio = [
         location: "",
         link: "",
         resume: [<p>Designed content-aware image resizing seam carver tool algorithm, implementing dual-gradient energy function to identify least essential pixels and <b>Djikstra's shortest path algorithm</b> in <b>Java</b> to find horizontal and vertical seams to remove</p>],
-    },
-    {
-        id: 8,
-        title: "Classifying Handwritten Digits with Machine Learning 🤖",
-        img:
-            "", role: "",
-        date: "April 2022",
-        location: "",
-        link: "",
-        resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>]
     }, {
         id: 9,
         title: "Buffer Overflow Attacks with Assembly 💻",
@@ -113,6 +135,18 @@ export const selectedPortfolio = [
 ];
 
 export const swePortfolio = [
+    {
+        id: 1,
+        title: "Amazon 🍌",
+        img:
+            "assets/NIH.png",
+        role: "Software Engineer Intern",
+        date: "May 2023 - Present",
+        location: "Seattle, WA",
+        link: "",
+        resume: [<p>Amazon Grocery Software Engineer</p>,
+            ]
+    },
     {
         id: 1,
         title: "National Institutes of Health 🫀",
@@ -162,6 +196,26 @@ export const swePortfolio = [
 ];
 
 export const projectsPortfolio = [
+        {
+        id: 1,
+        title: "AI Image Generation and Chatbot of Myself 🤖",
+        img:
+            "", role: "",
+        date: "February 2023 - May 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/1apKPGjP6w0qJqan8S0YdbtSOSU8kbxUf/view?usp=sharing"><Link className='icon' />Overview</a> </p>,
+        resume: [<p>Implemented transformers model and fine-tuned <b>Microsoft’s DialoGPT model</b> to train chatbot on personal iMessage conversations and coded unconditional art generation with <b>Hugging Face’s Diffusers library</b> in <b>Python</b> on personal photos, cultivating results into paintings and interactive pieces for solo art exhibition next year</p>],
+    },
+         {
+        id: 1,
+        title: "Prediction of Chronic Diseases Across United States 🧑‍⚕️",
+        img:
+            "", role: "",
+        date: "January 2023 - May 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/1wuKBUeIP7ih0KBrVBFmQpPdhWanwQsJY/view?usp=sharing"><Link className='icon' />Research Paper PDF</a> </p>,
+        resume: [<p>IAnalyzed correlations between chronic illnesses with diet and exercise, processed and visualized data through <b>Python panda</b> DataFrame and <b>seaborn</b>  heatmaps, composed research paper under Professor O. Troyanskaya</p>,<p>Compiled linear, random forest, and SGD regression models with <b>scikit-learn</b> library, training based on nutritional habits and outputting the prevalence estimate of chronic illnesses with average R2 accuracy of 0.81</p>],
+    },
     {
         id: 1,
         title: "EventMatch 📅",
@@ -169,8 +223,18 @@ export const projectsPortfolio = [
             "", role: "",
         date: "August 2021 - January 2022",
         location: "",
-        link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a> <h6> || </h6> <a href="https://tigereventmatch.herokuapp.com/discover"><Link className='icon' />Website (Princeton login required)</a></p>,
+        link: <p><a href="https://docs.google.com/presentation/d/1mr9tx1Z-k0_tTAgglUjf5SUNJIQOKQNalepVCLAg9VI/edit#slide=id.g35f391192_00"><Link className='icon' />Overview</a> </p>,
         resume: [<p>Collaborating with team of four to develop event matching site with card swiping and flipping interface with Google Calendar integration for Princeton students using <b>React, TypeScript, Flask, and Evergreen UI Library</b></p>],
+    },
+    {
+        id: 1,
+        title: "3D Modeling and Mesh Editor Program 🫖",
+        img:
+            "", role: "",
+        date: "February 2023 - May 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/1bij_wOXLFh0fNY_LFaX9QQ9FEASQ10IG/view?usp=sharing"><Link className='icon' />Overview</a> </p>,
+        resume: [<p>Executed vertices and faces mesh manipulation with <b>Javascript</b> and <b>ThreeJS</b>, including translation, scaling, euler rotation (twisting), random noise to vertices, smoothing, extrusion, and subdivision functionalities to models</p>],
     },
     {
         id: 2,
@@ -196,7 +260,7 @@ export const projectsPortfolio = [
     },
     {
         id: 4,
-        title: "Classifying Handwritten Digits with Machine Learning 🤖",
+        title: "Classifying Handwritten Digits with Machine Learning 1️⃣",
         img:
         "", role: "",
     date: "April 2022",
@@ -348,7 +412,7 @@ export const designPortfolio = [
         date: "August 2020 - Present",
         location: "Princeton, NJ",
         link: "",
-        resume: [<p>Providing layout, logo, website, app design for non-profits and other clients surrounding Princeton using <b>Adobe Creative Cloud</b></p>, <p>Participating in the web design subteam to handle UI/UX work and intersecting my interests of graphic design and computer science</p>, <p>Hosting and spearheading Design&Impact competition, a two week hackathon style event where teams pitch designs and marketing campaigns to non-profits</p>],
+        resume: [<p>Providing layout, logo, website, app design for non-profits and other clients surrounding Princeton using <b>Adobe Creative Cloud</b></p>, <p>Participating in the web design subteam to handle UI/UX work and intersecting my interests of graphic design and computer science</p>, <p>Hosting and spearheading Design&Impact competition, a two week hackathon style event where teams pitch designs and marketing campaigns to non-profits for <b>50+ participants</b></p>],
     },
 ];
 
