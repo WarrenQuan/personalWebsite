@@ -23,7 +23,8 @@ export const selectedPortfolio = [
         location: "Washington, D.C.",
         link: "",
         resume: [<p>One of the <b>159/1600 fellows</b>  selected for Coding it Forward's Civic Digital Fellowship to work as a software engineer for the National Institutes of Health</p>,
-        <p>Integrated natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing prediction accuracy and results with webpage developed using StreamLit framework in <b>Python</b> and <b>SQLite3</b> for user authentication</p>,
+        <p>Integrated natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing prediction accuracy and results with webpage developed using StreamLit framework in <b>Python</b> and <b>SQLite3</b> for user authentication and deployed for <b>18,000+ NIH employees</b> internal use 
+        </p>,
         <p>Embedded interactive heat map chart with <b>Plotly Python library</b> to display confidence level of predicted grants</p>,
         <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,  
             ]
@@ -157,9 +158,11 @@ export const swePortfolio = [
         location: "Washington, D.C.",
         link: "",
         resume: [<p>One of the <b>159/1600 fellows</b>  selected for Coding it Forward's Civic Digital Fellowship to work as a software engineer for the National Institutes of Health</p>,
-        <p>Integrated natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing prediction accuracy and results with webpage developed using StreamLit framework in <b>Python</b> and <b>SQLite3</b> for user authentication</p>,
+        <p>Integrated natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing prediction accuracy and results with webpage developed using StreamLit framework in <b>Python</b> and <b>SQLite3</b> for user authentication and deployed for <b>18,000+ NIH employees</b> internal use 
+        </p>,
         <p>Embedded interactive heat map chart with <b>Plotly Python library</b> to display confidence level of predicted grants</p>,
-        <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,]
+        <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,  
+            ]
     },
     {
         id: 2,
@@ -266,7 +269,7 @@ export const projectsPortfolio = [
     date: "April 2022",
     location: "",
     link: "",
-    resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>scholastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>]
+    resume: [<p>Implemented <b>convolutional neural networks</b> to classify images of handwritten digits of MNIST dataset in <b>Python</b> and training model with different learning rates for <b>stochastic gradient descent</b>, plotting training loss with epoch number using <b>matplotlib</b></p>]
     },
     {
         id: 5,
