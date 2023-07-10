@@ -9,7 +9,7 @@ export const selectedPortfolio = [
         date: "May 2023 - Present",
         location: "Seattle, WA",
         link: "",
-        resume: [<p>Amazon Grocery Software Engineer</p>,
+        resume: [<p>Develop full-stack operational tools displaying Amazon Grocery delivery time slots in sortable and filterable table and cards format, optimizing 50+ engineers’ on-call process and communication to 300+ million Amazon users</p>, <p>Program software using <b>React/TypeScript</b> front-end and <b>Java</b> back-end with <b>AWS CDK</b> infrastructure as code for <b>CloudFormation</b> resource provision and creating <b>API Gateway</b> with <b>Lambda</b> proxy integration to call internal API </p>, <p>Author low-level design document, scoping and outlining technical and architectural details of software system </p>,  <p>Direct daily stand-ups, sprint planning, retrospectives, sprint reviews, and backlog grooming sessions as Scrum Master for sprint, promoting agile methodologies and ensuring alignment between team and stakeholders</p>
             ]
     },
     
@@ -47,7 +47,7 @@ export const selectedPortfolio = [
         date: "January 2023 - May 2023",
         location: "",
         link: <p><a href="https://drive.google.com/file/d/1wuKBUeIP7ih0KBrVBFmQpPdhWanwQsJY/view?usp=sharing"><Link className='icon' />Research Paper PDF</a> </p>,
-        resume: [<p>IAnalyzed correlations between chronic illnesses with diet and exercise, processed and visualized data through <b>Python panda</b> DataFrame and <b>seaborn</b>  heatmaps, composed research paper under Professor O. Troyanskaya</p>,<p>Compiled linear, random forest, and SGD regression models with <b>scikit-learn</b> library, training based on nutritional habits and outputting the prevalence estimate of chronic illnesses with average R2 accuracy of 0.81</p>],
+        resume: [<p>Analyzed correlations between chronic illnesses with diet and exercise, processed and visualized data through <b>Python panda</b> DataFrame and <b>seaborn</b>  heatmaps, composed research paper under Professor O. Troyanskaya</p>,<p>Compiled linear, random forest, and SGD regression models with <b>scikit-learn</b> library, training based on nutritional habits and outputting the prevalence estimate of chronic illnesses with average R2 accuracy of 0.81</p>],
     },
     
     {
@@ -217,7 +217,7 @@ export const projectsPortfolio = [
         date: "January 2023 - May 2023",
         location: "",
         link: <p><a href="https://drive.google.com/file/d/1wuKBUeIP7ih0KBrVBFmQpPdhWanwQsJY/view?usp=sharing"><Link className='icon' />Research Paper PDF</a> </p>,
-        resume: [<p>IAnalyzed correlations between chronic illnesses with diet and exercise, processed and visualized data through <b>Python panda</b> DataFrame and <b>seaborn</b>  heatmaps, composed research paper under Professor O. Troyanskaya</p>,<p>Compiled linear, random forest, and SGD regression models with <b>scikit-learn</b> library, training based on nutritional habits and outputting the prevalence estimate of chronic illnesses with average R2 accuracy of 0.81</p>],
+        resume: [<p>Analyzed correlations between chronic illnesses with diet and exercise, processed and visualized data through <b>Python panda</b> DataFrame and <b>seaborn</b>  heatmaps, composed research paper under Professor O. Troyanskaya</p>,<p>Compiled linear, random forest, and SGD regression models with <b>scikit-learn</b> library, training based on nutritional habits and outputting the prevalence estimate of chronic illnesses with average R2 accuracy of 0.81</p>],
     },
     {
         id: 1,
