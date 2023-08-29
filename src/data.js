@@ -145,7 +145,7 @@ export const swePortfolio = [
         date: "May 2023 - Present",
         location: "Seattle, WA",
         link: "",
-        resume: [<p>Amazon Grocery Software Engineer</p>,
+        resume: [<p>Develop full-stack operational tools displaying Amazon Grocery delivery time slots in sortable and filterable table and cards format, optimizing 50+ engineers’ on-call process and communication to 300+ million Amazon users</p>, <p>Program software using <b>React/TypeScript</b> front-end and <b>Java</b> back-end with <b>AWS CDK</b> infrastructure as code for <b>CloudFormation</b> resource provision and creating <b>API Gateway</b> with <b>Lambda</b> proxy integration to call internal API </p>, <p>Author low-level design document, scoping and outlining technical and architectural details of software system </p>,  <p>Direct daily stand-ups, sprint planning, retrospectives, sprint reviews, and backlog grooming sessions as Scrum Master for sprint, promoting agile methodologies and ensuring alignment between team and stakeholders</p>
             ]
     },
     {
