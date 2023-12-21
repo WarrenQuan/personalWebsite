@@ -95,6 +95,16 @@ export const selectedPortfolio = [
             integration for Princeton students with <b>front-end of React and TypeScript and Python Flask for back-end server</b></p>, "Documenting design and creation process, testing features, database schema, and internal structure of application"],
     },
     {
+    id: 1,
+        title: "Autonomous Drone Navigation 🛫",
+        img:
+            "", role: "",
+        date: "September 2023 - December 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/14K49BAyHa5PF9emnO9XL1iqzdnb5BsAv/view?usp=sharing"><Link className='icon' />Video Demonstration</a> </p>,
+        resume: [<p>Assembled Crazyflie 2.1 drone and implemented a finite state machine to maneuver through obstacle courses, ensuring precise landings adjacent to target objects through the integration of a trained neural network trained on COCO dataset<br></br>- Engineered solutions to enhance drone camera performance by addressing frame distortions, reducing camera noise, and mitigating glitches achieved by implementing a sophisticated algorithm leveraging rolling averages of frames<br></br>- Programmed computer vision techniques with OpenCV to apply bounding boxes to determine obstacles' position and proximity to drone</p>]
+},
+    {
         id: 1,
         title: "3D Modeling and Mesh Editor Program 🫖",
         img:
@@ -199,6 +209,16 @@ export const swePortfolio = [
 ];
 
 export const projectsPortfolio = [
+    {
+    id: 1,
+        title: "Autonomous Drone Navigation 🛫",
+        img:
+            "", role: "",
+        date: "September 2023 - December 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/14K49BAyHa5PF9emnO9XL1iqzdnb5BsAv/view?usp=sharing"><Link className='icon' />Video Demonstration</a> </p>,
+        resume: [<p>Assembled Crazyflie 2.1 drone and implemented a finite state machine to maneuver through obstacle courses, ensuring precise landings adjacent to target objects through the integration of a trained neural network trained on COCO dataset<br></br>- Engineered solutions to enhance drone camera performance by addressing frame distortions, reducing camera noise, and mitigating glitches achieved by implementing a sophisticated algorithm leveraging rolling averages of frames<br></br>- Programmed computer vision techniques with OpenCV to apply bounding boxes to determine obstacles' position and proximity to drone</p>]
+},
         {
         id: 1,
         title: "AI Image Generation and Chatbot of Myself 🤖",
@@ -218,6 +238,18 @@ export const projectsPortfolio = [
         location: "",
         link: <p><a href="https://drive.google.com/file/d/1wuKBUeIP7ih0KBrVBFmQpPdhWanwQsJY/view?usp=sharing"><Link className='icon' />Research Paper PDF</a> </p>,
         resume: [<p>Analyzed correlations between chronic illnesses with diet and exercise, processed and visualized data through <b>Python panda</b> DataFrame and <b>seaborn</b>  heatmaps, composed research paper under Professor O. Troyanskaya</p>,<p>Compiled linear, random forest, and SGD regression models with <b>scikit-learn</b> library, training based on nutritional habits and outputting the prevalence estimate of chronic illnesses with average R2 accuracy of 0.81</p>],
+    },
+    {
+        id: 1,
+        title: "Understanding Visual Artists’ Perspectives on Use of Generative AI Tools 👩‍🎨",
+        img:
+            "",
+        role: "",
+        date: "September 2023 - December 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/1wQz-GoVLHE-LpGXbK7h3kn9RoGFm1mUh/view?usp=sharing"><Link className='icon' />Research Paper PDF</a> </p>,
+        resume: [<p>Authored human-computer interaction research paper under Professor Andrés Monroy-Hernández exploring the contentious implications of advanced AI image generation tools in the visual arts space<br></br>- Conducted semi-structured interviews of visual artists and performed thematic analysis to discern perspectives on AI tool usage, identifying ethical and licensure considerations as key factors influencing negative artist opinions on AI generative tools</p>
+            ]
     },
     {
         id: 1,
@@ -323,6 +355,18 @@ export const uiPortfolio = [
         location: "Princeton, NJ",
         link: <p><a href="https://docs.google.com/presentation/u/1/d/1QaqlmLn_BU6ZBTMWoqevfE1lQuZSs_698UOSEUJ9Gdw/edit?usp=sharing"><Link className='icon' />Overview</a> <h6> || </h6> <a href="https://www.figma.com/file/ih1ANK54qThHMo5fLrAv7F/Idea-Board?node-id=0%3A1"><Brush className='icon' />Figma</a></p>,
         resume: [<p>Managed team of four to conduct <b>20+ user interviews</b> to synthesize use cases and design prototypes with Figma</p>],
+    },
+      {
+        id: 1,
+        title: "Understanding Visual Artists’ Perspectives on Use of Generative AI Tools 👩‍🎨",
+        img:
+            "",
+        role: "",
+        date: "September 2023 - December 2023",
+        location: "",
+        link: <p><a href="https://drive.google.com/file/d/1wQz-GoVLHE-LpGXbK7h3kn9RoGFm1mUh/view?usp=sharing"><Link className='icon' />Research Paper PDF</a> </p>,
+        resume: [<p>Authored human-computer interaction research paper under Professor Andrés Monroy-Hernández exploring the contentious implications of advanced AI image generation tools in the visual arts space<br></br>- Conducted semi-structured interviews of visual artists and performed thematic analysis to discern perspectives on AI tool usage, identifying ethical and licensure considerations as key factors influencing negative artist opinions on AI generative tools</p>
+            ]
     },
     {
        id: 3,
