@@ -437,8 +437,8 @@ export const designPortfolio = [
             "", role: "",
         date: "",
         location: "",
-        link: <a href="https://drive.google.com/drive/folders/12HpZ9OVbAVIZTrCWnT73QlPUqA9YCj2O?usp=sharing"><Folder className='icon' /> Portfolio</a>,
-        resume: [<p>Selected as <b>20/40+ candidates</b> for Visual Arts minor at Princeton University. Taken Drawing, Sculpture, Painting, and will be executing Junior Art Theses Show. Current Princeton Art Museum Student Advisory Board Diversity and Inclusion Chair, Princeton Lewis Center of Arts Advisor, and Princeton Entreprenuership Club Design Team President</p>],
+        link: <a href="https://warren-quan-art-portfolio.onrender.com/"><Folder className='icon' /> Portfolio</a>,
+        resume: [<p>Selected as <b>20/40+ candidates</b> for Visual Arts minor at Princeton University. Taken Drawing, Sculpture, Painting, Fabric Sculpture, Advanced Graphic Design, Exhibition and Methods, and currently executing senior thesis show. Previous Princeton Art Museum Student Advisory Board Diversity and Inclusion Chair, Princeton Lewis Center of Arts Advisor, and Princeton Entreprenuership Club Design Team President</p>],
     },
     {
         id: 2,
