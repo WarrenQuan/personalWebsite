@@ -14,7 +14,7 @@ export default function Contact() {
         <h1><strong>&#125;</strong></h1>
       </div>
       <div className="bottom">
-        website developed and designed (with love) by warren quan © 2022
+        website developed and designed (with love) by warren quan © 2023
 
 
       </div>
