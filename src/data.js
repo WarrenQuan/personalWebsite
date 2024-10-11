@@ -2,14 +2,38 @@ import { Link, GitHub, Brush, Folder, FileOpen } from '@mui/icons-material';
 export const selectedPortfolio = [
     {
         id: 1,
-        title: "Amazon 🍌",
+        title: "Amazon Web Services: Billing Computational Credits 🪙",
+        img:
+            "assets/NIH.png",
+        role: "Software Engineer",
+        date: "Sept 2024 - Present",
+        location: "New York, NY",
+        link: "",
+        resume: [<p>the web needs my services & i'm always ready to serve</p>
+            ]
+    },
+    {
+        id: 1,
+        title: "Brooklyn Museum 🏛️",
         img:
             "assets/NIH.png",
         role: "Software Engineer Intern",
-        date: "May 2023 - Present",
+        date: "May 2023 - Aug 2023",
+        location: "Brooklyn, NY",
+        link: "",
+        resume: [<p>Developed Next.js application to label and tag over 50,000+ exhibition items leveraging OpenAI, Claude, and Google Gemini LLMs to identify artwork subjects and create accessible captions for future search system </p>, <p> Implemented Google OAuth user authentication and multimodal input for enhanced interaction experience </p>, <p> Engineered advanced prompts for LLMs through advanced chain-of-thoguht prompting, refining and optimizing input strategies to improve the accuracy and relevance of generated descriptions across various models</p>,  <p>Prototyped interactive digital experiences by developing 360° virtual tours with ThreeJS for upcoming exhibitions</p>,  <p>        Led quality assurance for museum website remodel, identifying 173 image errors and 20+ feature enhancement</p>, <p>fell in love with nyc food scene but my wallet did not 💸</p> 
+            ]
+    },
+    {
+        id: 1,
+        title: "Amazon Fresh 🍌",
+        img:
+            "assets/NIH.png",
+        role: "Software Engineer Intern",
+        date: "May 2023 - Aug 2023",
         location: "Seattle, WA",
         link: "",
-        resume: [<p>Develop full-stack operational tools displaying Amazon Grocery delivery time slots in sortable and filterable table and cards format, optimizing 50+ engineers’ on-call process and communication to 300+ million Amazon users</p>, <p>Program software using <b>React/TypeScript</b> front-end and <b>Java</b> back-end with <b>AWS CDK</b> infrastructure as code for <b>CloudFormation</b> resource provision and creating <b>API Gateway</b> with <b>Lambda</b> proxy integration to call internal API </p>, <p>Author low-level design document, scoping and outlining technical and architectural details of software system </p>,  <p>Direct daily stand-ups, sprint planning, retrospectives, sprint reviews, and backlog grooming sessions as Scrum Master for sprint, promoting agile methodologies and ensuring alignment between team and stakeholders</p>
+        resume: [<p>Develop full-stack operational tools displaying Amazon Grocery delivery time slots in sortable and filterable table and cards format, optimizing 50+ engineers’ on-call process and communication to 300+ million Amazon users</p>, <p>Program software using <b>React/TypeScript</b> front-end and <b>Java</b> back-end with <b>AWS CDK</b> infrastructure as code for <b>CloudFormation</b> resource provision and creating <b>API Gateway</b> with <b>Lambda</b> proxy integration to call internal API </p>, <p>Author low-level design document, scoping and outlining technical and architectural details of software system </p>,  <p>Direct daily stand-ups, sprint planning, retrospectives, sprint reviews, and backlog grooming sessions as Scrum Master for sprint, promoting agile methodologies and ensuring alignment between team and stakeholders</p>, <p>developed a coffee addiction and broader appreciation of bananas ☕🍌</p>
             ]
     },
     
@@ -19,14 +43,14 @@ export const selectedPortfolio = [
         img:
             "assets/NIH.png",
         role: "Software Engineer Intern",
-        date: "June 2022 - Present",
+        date: "June 2022 - Aug 2022",
         location: "Washington, D.C.",
         link: "",
         resume: [<p>One of the <b>159/1600 fellows</b>  selected for Coding it Forward's Civic Digital Fellowship to work as a software engineer for the National Institutes of Health</p>,
         <p>Integrated natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing prediction accuracy and results with webpage developed using StreamLit framework in <b>Python</b> and <b>SQLite3</b> for user authentication and deployed for <b>18,000+ NIH employees</b> internal use 
         </p>,
         <p>Embedded interactive heat map chart with <b>Plotly Python library</b> to display confidence level of predicted grants</p>,
-        <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,  
+        <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>, <p>fought against imposter syndrome in tech industry and won 🤼</p>  
             ]
     },
       {
@@ -148,6 +172,30 @@ export const selectedPortfolio = [
 export const swePortfolio = [
     {
         id: 1,
+        title: "Amazon Web Services: Billing Computational Credits 🪙",
+        img:
+            "assets/NIH.png",
+        role: "Software Engineer",
+        date: "Sept 2024 - Present",
+        location: "New York, NY",
+        link: "",
+        resume: [<p>the web needs my services, and i'm always ready to serve</p>
+            ]
+    },
+    {
+        id: 1,
+        title: "Brooklyn Museum 🏛️",
+        img:
+            "assets/NIH.png",
+        role: "Software Engineer Intern",
+        date: "May 2023 - Aug 2023",
+        location: "Brooklyn, NY",
+        link: "",
+        resume: [<p>Developed Next.js application to label and tag over 50,000+ exhibition items leveraging OpenAI, Claude, and Google Gemini LLMs to identify artwork subjects and create accessible captions for future search system </p>, <p> Implemented Google OAuth user authentication and multimodal input for enhanced interaction experience </p>, <p> Engineered advanced prompts for LLMs through advanced chain-of-thoguht prompting, refining and optimizing input strategies to improve the accuracy and relevance of generated descriptions across various models</p>,  <p>Prototyped interactive digital experiences by developing 360° virtual tours with ThreeJS for upcoming exhibitions</p>,  <p>        Led quality assurance for museum website remodel, identifying 173 image errors and 20+ feature enhancement</p>, <p>fell in love with nyc food scene but my wallet did not 💸</p> 
+            ]
+    },
+    {
+        id: 1,
         title: "Amazon 🍌",
         img:
             "assets/NIH.png",
@@ -155,23 +203,24 @@ export const swePortfolio = [
         date: "May 2023 - Present",
         location: "Seattle, WA",
         link: "",
-        resume: [<p>Develop full-stack operational tools displaying Amazon Grocery delivery time slots in sortable and filterable table and cards format, optimizing 50+ engineers’ on-call process and communication to 300+ million Amazon users</p>, <p>Program software using <b>React/TypeScript</b> front-end and <b>Java</b> back-end with <b>AWS CDK</b> infrastructure as code for <b>CloudFormation</b> resource provision and creating <b>API Gateway</b> with <b>Lambda</b> proxy integration to call internal API </p>, <p>Author low-level design document, scoping and outlining technical and architectural details of software system </p>,  <p>Direct daily stand-ups, sprint planning, retrospectives, sprint reviews, and backlog grooming sessions as Scrum Master for sprint, promoting agile methodologies and ensuring alignment between team and stakeholders</p>
+        resume: [<p>Develop full-stack operational tools displaying Amazon Grocery delivery time slots in sortable and filterable table and cards format, optimizing 50+ engineers’ on-call process and communication to 300+ million Amazon users</p>, <p>Program software using <b>React/TypeScript</b> front-end and <b>Java</b> back-end with <b>AWS CDK</b> infrastructure as code for <b>CloudFormation</b> resource provision and creating <b>API Gateway</b> with <b>Lambda</b> proxy integration to call internal API </p>, <p>Author low-level design document, scoping and outlining technical and architectural details of software system </p>,  <p>Direct daily stand-ups, sprint planning, retrospectives, sprint reviews, and backlog grooming sessions as Scrum Master for sprint, promoting agile methodologies and ensuring alignment between team and stakeholders</p>, <p>developed a coffee addiction and broader appreciation of bananas ☕🍌</p>
             ]
     },
+ 
     {
-        id: 1,
+        id: 2,
         title: "National Institutes of Health 🫀",
         img:
             "assets/NIH.png",
         role: "Software Engineer Intern",
-        date: "June 2022 - Present",
+        date: "June 2022 - Aug 2022",
         location: "Washington, D.C.",
         link: "",
         resume: [<p>One of the <b>159/1600 fellows</b>  selected for Coding it Forward's Civic Digital Fellowship to work as a software engineer for the National Institutes of Health</p>,
         <p>Integrated natural language processing Doc2vec model and neural network, support vector machine, and logistic regression machine learning algorithms to classify Office of Aids research grants, visualizing prediction accuracy and results with webpage developed using StreamLit framework in <b>Python</b> and <b>SQLite3</b> for user authentication and deployed for <b>18,000+ NIH employees</b> internal use 
         </p>,
         <p>Embedded interactive heat map chart with <b>Plotly Python library</b> to display confidence level of predicted grants</p>,
-        <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>,  
+        <p>Processing <b>JSON</b> retrieved from <b>NIH RePorter REST API</b> from user-inputted IDs to output grant information</p>, <p>fought against imposter syndrome in tech industry and won 🤼</p>  
             ]
     },
     {
@@ -180,7 +229,7 @@ export const swePortfolio = [
         img:
             "",
         role: "Software Developer",
-        date: "  September 2021 - Present",
+        date: "  September 2021 - September 2023",
         location: "Princeton, NJ",
         link: <a href="https://hoagie.io/"><Link className='icon' />hoagie.io</a>,
         resume: [<p>Improved HoagieMail application, new application sending all Princeton residential colleges mailing lists, by developing home page using <b>React</b> for <b>1720+ users</b> sending <b>700+ monthly emails</b></p>]
