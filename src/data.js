@@ -179,7 +179,7 @@ export const swePortfolio = [
         date: "Sept 2024 - Present",
         location: "New York, NY",
         link: "",
-        resume: [<p>the web needs my services, and i'm always ready to serve</p>
+        resume: [<p>the web needs my services & i'm always ready to serve</p>
             ]
     },
     {
